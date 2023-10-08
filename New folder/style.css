@@ -1,0 +1,380 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=popp&sidebar.open=true&selection.family=Poppins:wght@200;300;400;500;600;700;800;900);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover,
+#navbarSupportedContent>ul>li:nth-child(n)>a:active {
+    color: #00bf85;
+}
+
+#navbarSupportedContent>button {
+    background-color: #00bf85;
+    font-size: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #000;
+}
+
+.mid video {
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid .hero {
+    position: relative;
+}
+
+.mid .hero p {
+    width: 55%;
+    font-weight: 1.1rem;
+    letter-spacing: 0.3rem;
+    padding: 1.1rem;
+}
+
+.mid .hero h2 {
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1.1rem;
+}
+
+.mid .hero a {
+    background-color: #00bf85;
+    font-size: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    padding: 0.6rem 1.4rem;
+}
+
+.mid .hero a:hover {
+    color: #00bf85;
+}
+
+.about {
+    background-color: #000;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+
+.about .text h6 {
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.about .text h2 {
+    color: #f7f5f4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+.about .text p {
+    color: #f7f5f4;
+    font-weight: 400;
+    font-size: 1.7rem;
+    letter-spacing: 0.6%;
+}
+
+.about .text a {
+    background-color: #00bf85;
+    font-size: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    padding: 0.6rem 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.Discoverys {
+    background-color: white;
+}
+
+.Discoverys .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+
+.Discoverys .text h6 {
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.Discoverys .text h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+.Discoverys .text p {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.7rem;
+    letter-spacing: 0.6%;
+}
+
+.Discoverys .text a {
+    background-color: #00bf85;
+    font-size: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    padding: 0.6rem 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.Services {
+    background-color: #000;
+}
+
+.Services .one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding: 2em 1.5rem;
+    border-radius: 7px;
+}
+
+
+.blogs {
+    background-color: #fff;
+}
+
+.blogs .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+}
+
+.blogs .text h6 {
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.blogs .text h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+
+.blogs .text p {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.7rem;
+    letter-spacing: 0.6%;
+}
+
+.blogs .text a {
+    background-color: #00bf85;
+    font-size: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    padding: 0.6rem 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 988px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent>ul {
+        padding-left: 0.8rem;
+    }
+
+    #navbarSupportedContent>ul>li:nth-child(n)>a {
+        padding: 0.8rem 0;
+    }
+
+    .mid {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .mid .hero h2 {
+
+        font-weight: 2.5rem;
+    }
+
+    .mid .hero p {
+        font-weight: 1rem;
+    }
+
+    .mid .hero a {
+        font-size: 0.9rem;
+    }
+
+    #contact .form-control {
+        margin-bottom: 15px;
+        padding-left: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+}
+
+/*---------------------------------------
+      CONTACTS             
+  -----------------------------------------*/
+
+#contact {
+    background: #000;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+#contact .section-title h2 {
+    color: #ffffff;
+}
+
+#contact .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    color: rgba(20, 20, 20, 0.5);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    align-items: center;
+
+}
+
+#contact input,
+#contact select {
+    height: 55px;
+}
+
+#contact select {
+    color: rgba(20, 20, 20, 0.5);
+}
+
+#contact input[type='submit'] {
+    background: #ce3232;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+/*footer*/
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer--bg {
+    background-color: #000000;
+}
+
+.footer__title {
+    font-size: 30px;
+    color: #fff;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.footer__contact-information li {
+    display: inline-block;
+}
+
+.footer__contact-information li a {
+    font-size: 15px;
+    color: #9ca1a3;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.footer__paragraph {
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto-Light;
+}
